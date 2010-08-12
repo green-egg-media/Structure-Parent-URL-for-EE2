@@ -1,0 +1,11 @@
+The pi.gem_parenturl.php file must be placed in the /system/expressionengine/third_party/gem_parenturl/ folder in your ExpressionEngine installation.
+
+Extends the Structure module and allows you to return the URL of the parent of the current entry. If requested for an entry that is not managed by Strucutre, that is a Structure listing page, or that has no parent, the URL returned will be the home page.
+
+The Structure module must be installed.
+
+The tag - {exp:gem_parenturl} - will return only the URL of the parent entry. It does not generate any HTML tags, which gives you flexibility to use it in many different ways.
+
+USAGE EXAMPLE:
+
+<a href="{exp:gem_parenturl}" class="some_class">Up One Level</a>
