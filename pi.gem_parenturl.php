@@ -2,7 +2,7 @@
 /**
  *
  * Green Egg Media Structure Parent URL
- * ExpressionEngion Engine 2.0
+ * for use with ExpressionEngine 2.0
  * 
  * http://www.greeneggmedia.com/
  *
@@ -32,7 +32,6 @@ class Gem_parenturl {
 	public $return_data = ""; // return data from the Constructor
 	
 	function Gem_parenturl($entry_id=NULL) {
-		
 		
 		$this->EE =& get_instance();
 		
